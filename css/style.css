@@ -9,14 +9,11 @@ body {
 a {
   text-decoration: none;
   color: white;
-  -webkit-text-decoration: 1s;
-          text-decoration: 1s;
-  color: white;
 }
 
 .block-1 {
   position: relative;
-  background: url("/img/header/group 805.svg")-6% 4% no-repeat, url("/img/header/group 805.svg") 39% 83% no-repeat, url("/img/header/image 285.svg") 103% 64.3% no-repeat, url("/img/header/image 285.svg") 102.3% 68% no-repeat, url("/img/header/image 285.svg") 97.5% 73% no-repeat, url("/img/header/image 285.svg") 93.5% 68.5% no-repeat, url("/img/header/image 285.svg") 93.5% 60% no-repeat, url("/img/header/image 285.svg") 82% 88% no-repeat, url("/img/header/image 285.svg") 88% 80% no-repeat, url("/img/header/image 285.svg") 87% 83% no-repeat, url("/img/header/image 285.svg") 77% 83% no-repeat, url("/img/header/image 285.svg") 77% 74% no-repeat, url("/img/header/image 285.svg")-2% 42% no-repeat, url("/img/header/image 285.svg") 19% 73% no-repeat, url("/img/header/image 285.svg") 18% 80% no-repeat, url("/img/header/image 285.svg") 8% 75% no-repeat, url("/img/header/image 285.svg")-5% 80% no-repeat, url("/img/header/image 285.svg") 103% 25% no-repeat, url("/img/header/image 285.svg") 102% 27% no-repeat, url("/img/header/image 285.svg") 97% 32% no-repeat, url("/img/header/image 285.svg") 93% 27% no-repeat, url("/img/header/image 285.svg") 93% 17% no-repeat, url("/img/header/image 285.svg") 37% 54% no-repeat, url("/img/header/image 285.svg") 50% 33% no-repeat, url("/img/header/vector 10.svg") 60% 20% no-repeat, url("/img/header/image 285.svg") 33% 39% no-repeat, linear-gradient(113.28deg, #1A47EA 3.44%, #82E9FF 96.25%);
+  background: url("img/header/group 805.svg")-6% 4% no-repeat, url("/img/header/group 805.svg") 39% 83% no-repeat, url("/img/header/image 285.svg") 103% 64.3% no-repeat, url("/img/header/image 285.svg") 102.3% 68% no-repeat, url("/img/header/image 285.svg") 97.5% 73% no-repeat, url("/img/header/image 285.svg") 93.5% 68.5% no-repeat, url("/img/header/image 285.svg") 93.5% 60% no-repeat, url("/img/header/image 285.svg") 82% 88% no-repeat, url("/img/header/image 285.svg") 88% 80% no-repeat, url("/img/header/image 285.svg") 87% 83% no-repeat, url("/img/header/image 285.svg") 77% 83% no-repeat, url("/img/header/image 285.svg") 77% 74% no-repeat, url("/img/header/image 285.svg")-2% 42% no-repeat, url("/img/header/image 285.svg") 19% 73% no-repeat, url("/img/header/image 285.svg") 18% 80% no-repeat, url("/img/header/image 285.svg") 8% 75% no-repeat, url("/img/header/image 285.svg")-5% 80% no-repeat, url("/img/header/image 285.svg") 103% 25% no-repeat, url("/img/header/image 285.svg") 102% 27% no-repeat, url("/img/header/image 285.svg") 97% 32% no-repeat, url("/img/header/image 285.svg") 93% 27% no-repeat, url("/img/header/image 285.svg") 93% 17% no-repeat, url("/img/header/image 285.svg") 37% 54% no-repeat, url("/img/header/image 285.svg") 50% 33% no-repeat, url("/img/header/vector 10.svg") 60% 20% no-repeat, url("/img/header/image 285.svg") 33% 39% no-repeat, linear-gradient(113.28deg, #1A47EA 3.44%, #82E9FF 96.25%);
   max-width: 2030px;
   margin: 0 auto;
 }
@@ -65,7 +62,6 @@ a {
           transform: rotate(-16deg);
 }
 .block-1 .decoration_text-4 {
-  display: inline-block;
   top: 80%;
   right: 5%;
   font-size: 55px;
@@ -108,14 +104,6 @@ a {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-@media (max-width: 375px) {
-  .header__menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
-
 .header__menu-link {
   position: relative;
 }
@@ -169,7 +157,7 @@ select {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0;
-  border: 0 !important;
+  border: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
